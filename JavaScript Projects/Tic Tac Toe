@@ -1,0 +1,84 @@
+# Tic Tac Toe
+
+A modern, interactive Tic Tac Toe game built with HTML, CSS, and JavaScript.
+
+![image](https://github.com/user-attachments/assets/3dc13e6c-ade9-4b49-9399-06f23466766b)
+![image](https://github.com/user-attachments/assets/cac9710a-114c-4c13-9339-23397da89150)
+![image](https://github.com/user-attachments/assets/12f9c84b-6f1b-4628-8bbc-c39c28da7d12)
+
+
+## 🎮 Features
+
+- **Player Selection:** Choose to play as either X or O
+- **Visual Turn Indicator:** Slider animation shows whose turn it is
+- **Responsive Design:** Play on any device
+- **Win Detection:** Automatically detects when a player has won
+- **Draw Detection:** Recognizes when the game ends in a draw
+- **Game Reset:** Easily restart the game at any time
+
+## 🛠️ Technologies Used
+
+- HTML5
+- CSS3
+- Vanilla JavaScript
+- DOM Manipulation
+- Event Handling
+
+## 📋 How to Play
+
+1. Visit the [live demo](https://username.github.io/tic-tac-toe) or clone the repository and open `index.html` in your browser
+2. Select whether you want to play as X or O
+3. Take turns placing your mark in the grid
+4. The first player to get three of their marks in a row (horizontally, vertically, or diagonally) wins
+5. If all cells are filled and no player has won, the game ends in a draw
+6. Click "Restart Game" to play again
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/username/tic-tac-toe.git
+
+# Navigate to the project directory
+cd tic-tac-toe
+
+# Open index.html in your browser
+# No build process or dependencies required!
+```
+
+## 💻 Code Structure
+
+- `index.html` - The main HTML structure and layout
+- `style.css` - All styling and animations
+- `script.js` - Game logic and event handlers
+
+## 🧠 Implementation Details
+
+- **Game State Management:** Tracks current player, board state, and game status
+- **Dynamic UI Updates:** Visual feedback for player turns and game results
+- **Modular Design:** Functions are separated by concern for better readability
+- **Win Pattern Detection:** Efficient algorithm to check for winning combinations
+- **Event Delegation:** Optimized event handling for game interactions
+
+## 🔮 Future Enhancements
+
+- [ ] Add computer opponent with adjustable difficulty
+- [ ] Implement local multiplayer scorekeeping
+- [ ] Add sound effects and additional animations
+- [ ] Create a dark/light theme toggle
+- [ ] Save game progress to localStorage
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+## 🙏 Acknowledgements
+
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/) for typography
+- [GitHub Pages](https://pages.github.com/) for hosting
+
+---
+
+Feel free to ⭐ this repository if you found it useful!
